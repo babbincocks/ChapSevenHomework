@@ -52,7 +52,7 @@ namespace Test_Score_List
         {       //Code for the ReadScores method.
             try
             {       //Data source for the list is set to the text file in the Debug folder.
-                StreamReader inputFile = File.OpenText("TestScores.txt");
+                StreamReader inputFile = File.OpenText(@"..\..\..\..\..\ChapSevenHomework\Test Scores\TestScores.txt");
 
                 //All lines of the text file are put into the list object that is provided.
                 while (!inputFile.EndOfStream)
